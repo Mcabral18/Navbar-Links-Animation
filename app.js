@@ -16,7 +16,7 @@ Links.forEach((link,index)=>{
 })
 });
 
-//Remove NavBar
+//Remove NavBar if the user click a link
 
 function closeNav(){
     navLinks.classList.remove("nav-active");
