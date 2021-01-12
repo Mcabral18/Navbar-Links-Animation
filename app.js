@@ -16,6 +16,14 @@ Links.forEach((link,index)=>{
 })
 });
 
+//Remove NavBar
+
+function closeNav(){
+    navLinks.classList.remove("nav-active");
+    burger.classList.remove("active");
+}
+
+Links.forEach((n) => n.addEventListener("click", closeNav));
 
 
 //// other way
