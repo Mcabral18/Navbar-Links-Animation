@@ -25,6 +25,13 @@ function closeNav(){
 
 Links.forEach((n) => n.addEventListener("click", closeNav));
 
+///////////////
+
+Links.forEach((n) => n.addEventListener("click", ()=>{
+    navLinks.classList.remove("nav-active");
+    burger.classList.remove("active");
+}));
+
 
 //// other way
 
